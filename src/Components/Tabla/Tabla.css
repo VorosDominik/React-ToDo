@@ -1,0 +1,41 @@
+
+
+
+.Tabla{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: auto;
+    margin: 5%;
+    
+    
+}
+.sidePanel{
+width: 250px;
+height: 460px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-left: 5px;
+padding: auto;
+
+border-radius: 60px;
+
+
+
+
+
+
+}
+.sidePanel p{
+    padding: 8px;
+    margin: auto;
+    width: 234px;
+    height: 344px;
+    background-color:  rgb(252, 252, 252,0.);
+    background-image: linear-gradient(rgb(252, 252, 252, 0.5), rgb(192, 192, 192));
+   
+
+}
+.sidePanel h1{  
+text-decoration: underline;
+
+}

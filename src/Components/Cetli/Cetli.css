@@ -1,0 +1,115 @@
+.Cetli {
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(69, 170, 69);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+  cursor: grab;
+
+  border-radius: 60px;
+  margin: auto;
+  margin-top: 5px;
+  
+  display: grid;
+  grid-template-columns: 0.5fr 1.9fr 0.5fr;
+  grid-template-rows: 50px;
+  gap: 3px;
+
+  grid-template-areas: ". . .";
+}
+
+.content {
+
+  font-size: large;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+  margin: auto;
+}
+.destroy{
+  width: 30px;
+  height: 30px;
+  
+  
+  
+  }
+.FeladatCim{
+margin-top: 13px;
+padding-left: 1px;
+padding-bottom: 4px;
+
+
+
+}
+.delete {
+  background: none;
+  border: none;
+  padding: auto;
+  margin: 27%;
+  font-size:30px;
+  
+  color: rgb(69, 53, 53);
+  cursor: pointer;
+}
+.delete:hover {
+  color: red;
+}
+
+.Cetli:hover {
+  background-color: greenyellow;
+  box-shadow: 0 5px 15px #00ff3c;
+}
+
+.aktcetli {
+  box-sizing: border-box;
+  background: none;
+
+  border: none;
+
+  text-align: center;
+  padding-bottom: 17px;
+
+  font-size: 30px;
+  border-radius: 90%;
+}
+.aktcetli:hover {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+.end{
+    width: 30px;
+  height: 30px;
+}
+.kesz {
+  background: none;
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom-width: 10px;
+  padding-right: 30px;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 3px;
+
+  font-size:30px;
+  
+  color: rgb(69, 53, 53);
+  cursor: pointer;
+
+ 
+}
+.kesz:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
